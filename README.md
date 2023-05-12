@@ -1,4 +1,4 @@
-# node-diskinfo-promise
+# easy-diskinfo
 
 A Promise style disk information fetcher with many common used functions.
 
