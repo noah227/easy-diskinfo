@@ -48,7 +48,7 @@ easyDiskInfo.getDrives({
 
 ## Apis
 
-* getDrives(options: TDriveOptions): Promise<[TExecStandardResult](###TExecStandardResult) | TWinExecResult | TLinuxExecResult>
+* getDrives(options: TDriveOptions): Promise<[TExecStandardResult](#TExecStandardResult) | TWinExecResult | TLinuxExecResult>
 
 ## Types
 
