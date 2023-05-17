@@ -14,9 +14,13 @@ Get disk information with a promise style
 - [x] Windows
 - [x] Linux
 
+## Apis
+
+* getDrives(options: TDriveOptions): Promise<[TExecStandardResult](#TExecStandardResult) | TWinExecResult | TLinuxExecResult>
+
 ## Usage
 
-* Default usage with a unified result returned, see [TExecStandardResult](#TExecStandardResult)
+* Default usage with a unified result returned
 
 ```js
 const easyDiskInfo = require("easy-diskinfo")
@@ -44,11 +48,7 @@ easyDiskInfo.getDrives({
 }).then(res => {
     console.log(res)
 })
-```
-
-## Apis
-
-* getDrives(options: TDriveOptions): Promise<[TExecStandardResult](#TExecStandardResult) | TWinExecResult | TLinuxExecResult>
+``` 
 
 ## Types
 
