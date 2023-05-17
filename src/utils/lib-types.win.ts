@@ -1,7 +1,7 @@
 /**
  * @see https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-logicaldisk#properties win32-logicaldisk#properties
  */
-type TWin32_LogicalDiskPropertyFull =
+export type TWin32_LogicalDiskProperty =
     "Access"
     | "Availability"
     | "BlockSize"
@@ -43,12 +43,10 @@ type TWin32_LogicalDiskPropertyFull =
     | "VolumeName"
     | "VolumeSerialNumber"
 
-export type TWin32_LogicalDiskProperty = Partial<TWin32_LogicalDiskPropertyFull>
+type TWinExecResultItemFull = { [p in TWin32_LogicalDiskProperty]: any }
+type TWinExecResultItem = Partial<TWinExecResultItemFull>
 
-type TWinExecResultItem = {
-    [index: string]: any
-}
-export type TWinExecResult = TWinExecResultItem[] | null
+export type TWinExecResult = TWinExecResultItem[]
 
 
 

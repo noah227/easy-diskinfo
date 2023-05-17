@@ -16,17 +16,7 @@ export default {
     },
     plugins: [
         nodeResolve(),
-        typescript({
-            compilerOptions: {
-                target: "cjs",
-                sourceMap: true,
-                declaration: true,
-                declarationMap: true,
-                declarationDir: resolve("./dist"),
-                rootDir: resolve("./src")
-            },
-            sourceMap: false
-        }),
+        typescript(),
         commonjs(),
         // terser()
     ]

@@ -1,1 +1,0 @@
-export type TLinuxExecResult = {[index: string]: any}

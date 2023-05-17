@@ -10,6 +10,10 @@
         "allowSyntheticDefaultImports": true,
         "forceConsistentCasingInFileNames": true,
         "useDefineForClassFields": true,
+        "declaration": true,
+        "declarationMap": false,
+        "declarationDir": "types",
+        "rootDir": "src",
         "sourceMap": true,
         "baseUrl": ".",
         "types": [
