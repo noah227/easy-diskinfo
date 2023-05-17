@@ -1,4 +1,4 @@
-# node-diskinfo
+# easy-diskinfo
 
 Get disk information with a promise style
 
