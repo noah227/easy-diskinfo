@@ -33,9 +33,8 @@ easyDiskInfo.getDrives().then((drives) => {
 })
 ```
 
-For a specialized result on Windows. At this condition, you can get more properties,
-see [win32-logicaldisk#properties](https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-logicaldisk#properties)
-.
+*For a specialized result on Windows. 
+At this condition, you can get more properties, see [win32-logicaldisk#properties](https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-logicaldisk#properties).
 
 ```js
 // options.asStandard shall be set false to ensure an expected result
