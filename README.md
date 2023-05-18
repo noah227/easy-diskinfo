@@ -1,6 +1,10 @@
 # easy-diskinfo
 
-Get disk information with a promise style
+Get disk information with a promise style.
+
+Well... Better to use [systeminformation](https://www.npmjs.com/package/systeminformation). 
+Better Supports & Better Maintenance.
+沉睡吧，骚年，哈哈哈！
 
 ## Features
 
@@ -11,7 +15,7 @@ Get disk information with a promise style
 
 ## Supported Platforms
 
-- [x] Windows
+- [x] Windows(However, wmic is now deprecated as of recent versions of windows10 and even optional as of windows11 in the latest version)
 - [x] Linux
 
 ## Apis
